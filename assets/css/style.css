@@ -1,0 +1,28 @@
+/*Début Barre de Navigation  */
+.navbar {
+  background: -moz-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */;
+  list-style-type: none;
+  justify-content: space-around;
+  max-height: 50px;
+  z-index: 1;
+}
+.nav-link {
+  color: #0B223B;
+  text-shadow: #c19e67 0.2em 0.2em 0.3em;
+  font-size: 1.5vw;
+}
+.fa-bars{
+  color: #0B223B;
+  text-shadow: #0B223B.2em 0.2em 0.3em;
+}
+/*Fin Barre de Navigation  */
+/* Début card */
+.card{
+  margin-top:40px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+/* fin card */
